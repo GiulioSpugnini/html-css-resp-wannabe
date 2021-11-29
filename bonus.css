@@ -1,3 +1,9 @@
+@media screen and (max-width: 1000px) {
+    .container.grey {
+        background-color: white;
+    }
+}
+
 @media screen and (max-width: 768px) {
     h1 {
         position: absolute;
@@ -10,23 +16,40 @@
     .container.grey {
         background-color: white;
     }
+    .container {
+        min-width: 420px;
+    }
+    hr {
+        display: none;
+    }
     .row {
         display: flex;
         width: 100%;
         flex-flow: row nowrap;
         align-items: center;
         background-color: white;
-        margin-left: -10px;
         position: relative;
+        margin-left: -10px;
         padding: 20px;
     }
     img {
-        transform: scale(80%);
+        height: 100px;
     }
     #why>div {
         display: flex;
         justify-content: center;
-        transform: scale(80%);
+        transform: scale(0.8);
+    }
+    .first,
+    .second,
+    .third {
+        height: 500px;
+        padding: 5px;
+    }
+    .left,
+    .central,
+    .right {
+        height: 300px;
     }
     #steps>div {
         background-color: dodgerblue;
@@ -52,10 +75,20 @@
         background-color: white;
     }
     img {
-        transform: scale(100%);
+        transform: scale(1);
     }
     #why>div {
         display: flex;
-        transform: scale(100%);
+        transform: scale(1);
+    }
+    .first,
+    .second,
+    .third {
+        height: 100%;
+    }
+    .left,
+    .central,
+    .right {
+        height: 100%;
     }
 }
