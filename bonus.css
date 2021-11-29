@@ -34,13 +34,28 @@
 }
 
 @media screen and (max-width: 420px) {
+    h1 {
+        position: initial;
+        padding: 0;
+        transform: initial;
+    }
     .row {
         display: flex;
+        width: 992px;
         flex-flow: column wrap;
         align-items: center;
+        padding: 0;
+        position: initial;
         background-color: #f2f2cd;
     }
     #steps>div {
         background-color: white;
+    }
+    img {
+        transform: scale(100%);
+    }
+    #why>div {
+        display: flex;
+        transform: scale(100%);
     }
 }
