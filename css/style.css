@@ -1,0 +1,32 @@
+/* Generics */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: 50px;
+    text-align: center;
+}
+
+
+/* Utilities */
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid blue;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+}
