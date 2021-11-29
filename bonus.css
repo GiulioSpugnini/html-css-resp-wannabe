@@ -7,18 +7,40 @@
         left: 50%;
         transform: translate(-50%, -50%);
     }
+    .container.grey {
+        background-color: white;
+    }
     .row {
         display: flex;
+        width: 100%;
         flex-flow: row nowrap;
         align-items: center;
-        background-color: #f2f2cd;
+        background-color: white;
+        margin-left: -10px;
         position: relative;
+        padding: 20px;
+    }
+    img {
+        transform: scale(80%);
+    }
+    #why>div {
+        display: flex;
+        justify-content: center;
+        transform: scale(80%);
+    }
+    #steps>div {
+        background-color: dodgerblue;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .row {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        background-color: #f2f2cd;
     }
     #steps>div {
         background-color: white;
-    }
-    #why>div {
-        /* display: flex; */
-        /* flex-flow: row nowrap; */
     }
 }
