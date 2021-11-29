@@ -5,4 +5,7 @@
         align-items: center;
         background-color: #f2f2cd;
     }
+    #steps>div {
+        background-color: white;
+    }
 }
